@@ -1,0 +1,24 @@
+.container-father {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 4px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+
+.container-dashboard {
+    position: relative;
+    height: 100vh;
+}
+
+.img-perfil {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: width 0.3s, height 0.3s;
+    /* animación suave */
+}
