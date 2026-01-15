@@ -1,0 +1,15 @@
+<h1 class="main-title">TECHNOLOGIES I USE</h1>
+<!-- LANGUAGES -->
+<div class="targets-grid">
+    <div>
+        <h1 class="section-title">Languages</h1>
+    </div>
+
+    <div class="cards-container">
+        @for (lang of languages; track lang.title) { <!-- El loop inicia aquí -->
+        <app-card-tools [title]="lang.title" [img]="lang.img"></app-card-tools>
+        } @empty { <!-- Opcional: Para cuando el array esté vacío -->
+        <p>No hay lenguajes disponibles.</p>
+        }
+    </div>
+</div>

@@ -22,3 +22,9 @@
     transition: width 0.3s, height 0.3s;
     /* animación suave */
 }
+
+.description-information {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+}
